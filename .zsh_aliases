@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# ls aliases
+alias l='ls -1'
+alias ll='ls -AhlF'
+alias cl='clear && ls -1'
+alias cll='clear && ls -AhlF'
+
+# Python 3 alias
+alias p3='python3'
+alias p2='python2'
+
+# copy paste
+alias copy='xsel --clipboard --input'
+alias paste='xsel --clipboard --output'
+
+# get all my ipv4 addr
+alias cip='clear && ip addr | grep "inet " | grep -v "inet 127\.0\.0\.1/8 scope host lo"'
+
+# rezel
+alias dokku='ssh -t dokku@apps.rezel.net'
+
+# trim all whitespaces
+alias trim='sed -e "s/^\ *//g" -e "s/\ *$//g"'
+
+# launch some temp dockers
+alias ubuntu="docker run -it ubuntu bash"
+alias centos="docker run -it centos bash"
+alias debian="docker run -it debian bash"
+alias arch="docker run -it archlinux bash"
+
+
+alias sound="pavucontrol"
