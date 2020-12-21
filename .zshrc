@@ -61,6 +61,3 @@ fi
 PATH=$PATH:/home/n42/010editor;export PATH; # ADDED BY INSTALLER - DO NOT EDIT OR DELETE THIS COMMENT - 87FF8EFC-483D-BCAA-D67D-735CF60410D1 EED804F6-5843-E610-9D65-EB8CB46D4D30
 
 [[ ! -f "${HOME}/.local/etc/git_config/git_config.sh" ]] || source "${HOME}/.local/etc/git_config/git_config.sh";
-
-
-
